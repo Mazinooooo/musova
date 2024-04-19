@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--theme-background);
+    height: 130vh;
+
+}
+.header{
+    background: url(./img/zala.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+
+}
+.header::after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.50;
+    position: absolute;
+    left: 0px;
+    top:0px
+}
+.logo{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--theme-color-text);
+    display: flex;
+    position: relative;
+    right: 37vh;
+    margin-left: 14vh;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: var(--theme-color-nav);
+    cursor: pointer;
+}
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+    height: 60vh;
+    position: relative;
+    flex-direction: column;
+    z-index: 1;
+    color: var(--theme-color-text);
+    text-align: center;
+
+}
+
+.nav{
+    padding: 0px 5px 0px 29px;
+    display: flex;
+    position: relative;
+    left: 30vh;
+    font-size: larger;
+    margin: 0px 38px;
+}
+.main-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* font-size: 74px; */
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.button{
+    margin-left: 30px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.catering{
+    color: rgb(199, 191, 175);
+}
+.section-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    color: rgb(199, 191, 175);
+}
+.section-nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+/* -------------------------------------------------- */
+.section-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    position: relative;
+}
+.section-nav-contact
+{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+}
+.section-contact-telephone
+{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-p);
+}
+.section-nav-logo
+{
+    font-size: 3.4rem;
+    color: var(--theme-color-title);
+    margin-bottom: 25px;
+}
+.section-nav-span
+{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-text);
+    margin-bottom: 20px;
+
+}
+#icon{
+    color: var(--theme-color-text);
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+}
+.section-nav-hour
+{
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+}
+.section-nav-work
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+
+}
+:root{
+    --theme-background-btn:aliceblue;
+    --theme-background:#0C0C0C;
+    --theme-color-p:#AAAAAA;
+    --theme-color-text:#ffffff;
+    --theme-instagram-color:#fff;
+    --theme-color-title:#DCCA87;
+    --theme-color-nav: #F5EFDB;
+}
